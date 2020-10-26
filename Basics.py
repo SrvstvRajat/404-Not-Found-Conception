@@ -22,6 +22,7 @@ cv2.putText(imgTest,f'{results} {round(faceDis[0],2)}',(50,50),cv2.FONT_HERSHEY_
 
 
 cv2.imshow('Elon Musk',imgElon)
+cv2.waitKey(0)
 cv2.imshow('Elon Musk',imgTest)
 
 cv2.waitKey(0)
