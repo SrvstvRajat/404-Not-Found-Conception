@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3051745d-4e5b-415e-b3ea-70cdf3963e9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/venv/Basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AttendanceProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/AttendanceProject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +38,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AttendanceProject.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1jNNXxt9Ak1l0GFQTrMD0u1BVgx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,7 +58,28 @@
       <recent name="C:\Users\asus\Desktop\404-Not-Found-Conception - Copy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AttendanceProject">
+  <component name="RunManager" selected="Python.Attendance Project Final.py">
+    <configuration name="Attendance Project Final.py" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="404-Not-Found-Conception" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Attendance Project Final.py.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="AttendanceProject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="404-Not-Found-Conception" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hgfd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="attt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="404-Not-Found-Conception" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +134,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hgfd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="njkm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="404-Not-Found-Conception" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/njkm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,8 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Attendance Project Final.py" />
+        <item itemvalue="Python.attt" />
+        <item itemvalue="Python.njkm" />
         <item itemvalue="Python.AttendanceProject" />
-        <item itemvalue="Python.hgfd" />
         <item itemvalue="Python.Basics" />
       </list>
     </recent_temporary>
@@ -118,30 +185,69 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603648053269">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603766065431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603648053269" />
-    <state width="785" height="208" key="GridCell.Tab.0.bottom" timestamp="1603687687200">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603766065430" />
+    <state width="1515" height="241" key="GridCell.Tab.0.bottom" timestamp="1603821695082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="785" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603687687200" />
-    <state width="785" height="208" key="GridCell.Tab.0.center" timestamp="1603687687196">
+    <state width="1515" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603821695082" />
+    <state width="1515" height="241" key="GridCell.Tab.0.center" timestamp="1603821695082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="785" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603687687196" />
-    <state width="785" height="208" key="GridCell.Tab.0.left" timestamp="1603687687196">
+    <state width="1515" height="241" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603821695082" />
+    <state width="1515" height="241" key="GridCell.Tab.0.left" timestamp="1603821695081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="785" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603687687196" />
-    <state width="785" height="208" key="GridCell.Tab.0.right" timestamp="1603687687200">
+    <state width="1515" height="241" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603821695081" />
+    <state width="1515" height="241" key="GridCell.Tab.0.right" timestamp="1603821695082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="785" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603687687200" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1603654697379">
+    <state width="1515" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603821695082" />
+    <state width="784" height="255" key="GridCell.Tab.1.bottom" timestamp="1603793536116">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603654697379" />
+    <state width="784" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603793536116" />
+    <state width="784" height="255" key="GridCell.Tab.1.center" timestamp="1603793536116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="784" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603793536116" />
+    <state width="784" height="255" key="GridCell.Tab.1.left" timestamp="1603793536116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="784" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603793536116" />
+    <state width="784" height="255" key="GridCell.Tab.1.right" timestamp="1603793536116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="784" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603793536116" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1603784236127">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603784236127" />
+    <state x="794" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603808186085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="794" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603808186085" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="img" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

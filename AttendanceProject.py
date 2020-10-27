@@ -15,7 +15,7 @@ for cl in myList:
 print(classNames)
 
 def findEncodings(images):
-    encodeList=[]
+    encodeList = []
     for img in images:
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         encode = face_recognition.face_encodings(img)
@@ -31,15 +31,12 @@ while True:
     success, img = cap.read()
     imgS = cv2.resize(img,(0,0),None,0.25,0.25)
     imgS = cv2.cvtColor(imgS,cv2.COLOR_BGR2RGB)
-
     facesCurrFrame=face_recognition.face_locations(imgS)
-    encodesCurrFrame = face_recognition.face_encodings(imgS,facesCurrFrame)
-
-    for encodeFaces, faceLoc in zip(encodesCurrFrame,facesCurrFrame):
-        matches = face_recognition.compare_faces(encodeListKnown,encodeFaces)
-        faceDis = face_recognition.face_distance(encodeListKnown,encodeFaces)
-        print(faceDis)
-
+    encodesCurrFrame = face_recognition.face_encodings(imgS, facesCurrFrame)
+    for encodeFaces, faceLoc in zip(encodesCurrFrame, facesCurrFrame):
+        matches = face_recognition.compare_faces(encodeListKnown, encodeFaces)
+        faceDis = face_recognition.face_distance(encodeListKnown, encodeFaces)
+        matchIndex = np.argmin(faceDis)
 
 
 
