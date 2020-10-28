@@ -1,4 +1,4 @@
 # Face Recognition and Attendance Project
-![images](https://user-images.githubusercontent.com/73036667/97458370-a3c3b900-1960-11eb-9f68-f271c7d195d8.jpg)
+![concept-face-recognition-software-hardware-concept-face-recognition-software-hardware-131452869](https://user-images.githubusercontent.com/73036667/97458945-3b290c00-1961-11eb-84f0-6cb1c9c56bd3.jpg)
 
 
