@@ -24,7 +24,9 @@ def findEncodings(images):
         try:
             enc = encode[0]
         except:
-            print("[ERROR] Can't find face in image")
+
+            print("I am ready \n", end=" ")
+            input("Hit Enter To continue")
         encodeList.append(enc)
     return encodeList
 
@@ -40,10 +42,8 @@ def markAttendance(name):
             now = datetime.now()
             dtString = now.strftime('%H:%M:%S')
             f.writelines(f'\n{name},{dtString}')
-       # if name in nameList:
-            now = datetime.now()
-            dtString = now.strftime('%H:%M:%S')
-            f.writelines(f'\n{name},{dtString}')
+
+
 
 encodeListKnown = findEncodings(images)
 print(len(encodeListKnown))
