@@ -25,7 +25,7 @@ def findEncodings(images):
             enc = encode[0]
         except:
 
-            print("I am ready \n", end=" ")
+            print("I am ready\n", end=" ")
             input("Hit Enter To continue")
         encodeList.append(enc)
     return encodeList
@@ -65,9 +65,6 @@ while True:
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     for encodeFaces, faceLoc in zip(encodesCurrFrame, facesCurrFrame):
-        cv2.rectangle(img, (faceLoc[0], faceLoc[1]),
-                      (faceLoc[2], faceLoc[3]), (0, 255, 0), 2)
-        #cv2.imshow('frame', frame)
         matches = face_recognition.compare_faces(encodeListKnown, encodeFaces)
         faceDis = face_recognition.face_distance(encodeListKnown, encodeFaces)
         print(faceDis)
@@ -78,7 +75,7 @@ while True:
             print(name)
             y1, x2, y2, x1 = faceLoc
             y1, x2, y2, x1 = y1 * 4, x2 * 4, y2 * 4, x1 * 4
-            cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
+            cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 1)
             cv2.rectangle(img, (x1, y2 - 35), (x2, y2), (0, 255, 0), cv2.FILLED)
             cv2.putText(img, name, (x1 + 6, y2 - 6), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
             markAttendance(name)
