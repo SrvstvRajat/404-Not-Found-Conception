@@ -7,9 +7,10 @@ A Project to Recognise people from an image.Face Recognition using openCV in Pyt
 
 ## Table of Contents
 - [Description](#description)
-- [How to Use](#how-to-use)
+- [Technologies]
 - [Prerequisite](#requirements)
 - [Steps to be followed to use this Project](#procedure)
+- [How to Use](#how-to-use)
 - [Contact](#contact)
 
 ---
@@ -17,10 +18,6 @@ A Project to Recognise people from an image.Face Recognition using openCV in Pyt
 This is the Face Recognition System using various libraries and other tool implemented in Python.The purpose of this project is to detect and recognize faces appear in the image and to match them with the appropriate image available in the feeded images.
 #### Technologies
 - Python
-
-## How to use
-
-
 
 ### Prerequisite
 - Download Python
@@ -44,7 +41,9 @@ This is the Face Recognition System using various libraries and other tool imple
 - Now run the project by command :
  > python Attendance Project.py
     
+## How to use
+Afer successfully installing the libraries open the folder and go to the training folder,add your image and save it with your name.Then come back to the folder and double click on Attendance project.py. 
 ## Contact
-- Rajat Kumar Srivastava - rajatk24srivastava@gmai.com  - https://www.linkedin.com/in/rajat-kumar-srivastava-46387b195/
+- Rajat Kumar Srivastava - rajatk24srivastava@gmail.com  - https://www.linkedin.com/in/rajat-kumar-srivastava-46387b195/
 - Priya Pal - priyapal741@gmail.com -  https://www.linkedin.com/in/priya-pal-545a1a190
 - Rati Sonkar -  sonkar.rati@gmail.com - https://www.linkedin.com/in/rati-sonkar-79a522193/ 
