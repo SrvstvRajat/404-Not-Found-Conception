@@ -40,7 +40,10 @@ def markAttendance(name):
             now = datetime.now()
             dtString = now.strftime('%H:%M:%S')
             f.writelines(f'\n{name},{dtString}')
-
+       # if name in nameList:
+            now = datetime.now()
+            dtString = now.strftime('%H:%M:%S')
+            f.writelines(f'\n{name},{dtString}')
 
 encodeListKnown = findEncodings(images)
 print(len(encodeListKnown))
@@ -83,28 +86,3 @@ while True:
     cv2.imshow('Webcam', img)
     cv2.waitKey(1) & 0xFF == ord('q')
 
-
-
-
-
-    ##print(faceLoc)
-    ##print("Name" + " "*21 + "Chances")
-    ##for x in range(len(classNames)):
-    ##   print("{:25s} {:20f}".format(classNames[x], faceDis[x]*100))
-    ##except ValueError as e:
-    ##  print("[ERROR]" + str(e))
-    ##print("Face: ")
-    # print(encodeFaces)
-    # print("Location: ")
-    # print(faceLoc)
-
-# faceLoc = face_recognition.face_locations(imgElon)[0]
-# encodeElon = face_recognition.face_encodings(imgElon)[0]
-# cv2.rectangle(imgElon,(faceLoc[3],faceLoc[0]),(faceLoc[1],faceLoc[2]),(255,0,255),2)
-
-# faceLocTest = face_recognition.face_locations(imgTest)[0]
-# encodeTest = face_recognition.face_encodings(imgTest)[0]
-# cv2.rectangle(imgTest,(faceLocTest[3],faceLocTest[0]),(faceLocTest[1],faceLocTest[2]),(255,0,255),2)
-
-# results = face_recognition.compare_faces([encodeElon],encodeTest)
-# faceDis = face_recognition.face_distance([encodeElon],encodeTest)
