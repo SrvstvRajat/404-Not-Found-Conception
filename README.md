@@ -7,7 +7,7 @@ A Project to Recognise people from an image.Face Recognition using openCV in Pyt
 
 ## Table of Contents
 - [Description](#description)
-- [Technologies]
+- [Technologies](#tech)
 - [Prerequisite](#requirements)
 - [Steps to be followed to use this Project](#procedure)
 - [How to Use](#how-to-use)
