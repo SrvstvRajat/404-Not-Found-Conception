@@ -9,6 +9,7 @@ A Project to Recognise people from an image.Face Recognition using openCV in Pyt
 - [Description](#description)
 - [How to Use](#how-to-use)
 - [Prerequisite](#requirements)
+- [Steps to be followed to use this Project](#procedure)
 - [Contact](#contact)
 
 ---
@@ -23,12 +24,26 @@ This is the Face Recognition System using various libraries and other tool imple
 
 ### Prerequisite
 - Download Python
-- Install Face-recognition library
-- Install Numpy
-- Install open-cv
-- Install Dlib
-- Install cmake
- 
+- Download Visual Studio Community Version(Desktop Development with C++)
+
+### Steps to be followed to use this Project
+- Make a new folder
+- Open cmd in that folder
+- Install virtualenv by command : pip install virtualenv
+- Now create a virtual environment named "env" by command :
+ > virtualenv env
+- Now activate environment by command :
+ > .\env\Scripts\activate
+- Now clone the github repository by command :
+ > git clone https://github.com/SrvstvRajat/404-Not-Found-Conception.git
+- Move inside project by command :cd 404-Not-Found-Conception
+- Now install all required libraries by command :
+ > pip install -r requirements.txt
+- If installation of any library fails then install it individually :
+ > pip install <name of library>
+- Now run the project by command :
+ > python Attendance Project.py
+    
 ## Contact
 - Rajat Kumar Srivastava - rajatk24srivastava@gmai.com  - https://www.linkedin.com/in/rajat-kumar-srivastava-46387b195/
 - Priya Pal - priyapal741@gmail.com -  https://www.linkedin.com/in/priya-pal-545a1a190
