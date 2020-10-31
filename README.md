@@ -16,7 +16,7 @@ A Project to Recognise people from an image.Face Recognition using openCV in Pyt
 ---
 ## Description
 This is the Face Recognition System using various libraries and other tool implemented in Python.The purpose of this project is to detect and recognize faces appear in the image and to match them with the appropriate image available in the feeded images.
-#### Technologies
+## Technologies
 - Python
 
 ### Prerequisite
