@@ -11,6 +11,7 @@ A Project to Recognise people from an image.Face Recognition using openCV in Pyt
 - [Prerequisite](#requirements)
 - [Steps to be followed to use this Project](#procedure)
 - [How to Use](#how-to-use)
+- [Links/Articles](#articles)
 - [Contact](#contact)
 
 ---
@@ -43,6 +44,11 @@ This is the Face Recognition System using various libraries and other tool imple
     
 ## How to use
 Afer successfully installing the libraries open the folder and go to the training folder,add your image and save it with your name.Then come back to the folder and double click on Attendance project.py. 
+
+## Links/Articles
+- For further informations visit:
+> https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
+
 ## Contact
 - Rajat Kumar Srivastava - rajatk24srivastava@gmail.com  - https://www.linkedin.com/in/rajat-kumar-srivastava-46387b195/
 - Priya Pal - priyapal741@gmail.com -  https://www.linkedin.com/in/priya-pal-545a1a190

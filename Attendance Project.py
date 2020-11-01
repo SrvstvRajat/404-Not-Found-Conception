@@ -3,6 +3,7 @@ import numpy as np
 import face_recognition
 import os
 from datetime import datetime
+
 camera_feedback = True
 path = 'Training'
 images = []
@@ -44,12 +45,11 @@ def markAttendance(name):
             f.writelines(f'\n{name},{dtString}')
 
 
-
 encodeListKnown = findEncodings(images)
 print(len(encodeListKnown))
 cap = cv2.VideoCapture(0)
-#print("I am ready ", end=" ")
-#input("Hit Enter To continue")
+# print("I am ready ", end=" ")
+# input("Hit Enter To continue")
 while True:
     success, img = cap.read()
 
@@ -70,15 +70,24 @@ while True:
         print(faceDis)
         matchIndex = np.argmin(faceDis)
 
-        if matches[matchIndex]:
-            name = classNames[matchIndex].upper()
-            print(name)
+        if ((float(f'{round(faceDis[matchIndex])}')) < 0.55):
+            if matches[matchIndex]:
+                name = classNames[matchIndex].upper()
+                print(name)
+                y1, x2, y2, x1 = faceLoc
+                y1, x2, y2, x1 = y1 * 4, x2 * 4, y2 * 4, x1 * 4
+                cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 1)
+                cv2.rectangle(img, (x1, y2 - 35), (x2, y2), (0, 255, 0), cv2.FILLED)
+                cv2.putText(img, f'{matches[matchIndex]} {round(faceDis[matchIndex], 2)}', (50, 50),
+                            cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2)
+                cv2.putText(img, name, (x1 + 6, y2 - 6), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
+                markAttendance(name)
+        else:
             y1, x2, y2, x1 = faceLoc
             y1, x2, y2, x1 = y1 * 4, x2 * 4, y2 * 4, x1 * 4
             cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 1)
-            cv2.rectangle(img, (x1, y2 - 35), (x2, y2), (0, 255, 0), cv2.FILLED)
-            cv2.putText(img, name, (x1 + 6, y2 - 6), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
-            markAttendance(name)
+            cv2.putText(img, f'{print("Please Add Your Image")}', (50, 50),cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2)
+            #print("Please Add your Image")
 
     cv2.imshow('Webcam', img)
     cv2.waitKey(1) & 0xFF == ord('q')
