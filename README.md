@@ -27,11 +27,6 @@ This is the Face Recognition System using various libraries and other tool imple
 ### Steps to be followed to use this Project
 - Make a new folder
 - Open cmd in that folder
-- Install virtualenv by command : pip install virtualenv
-- Now create a virtual environment named "env" by command :
- > virtualenv env
-- Now activate environment by command :
- > .\env\Scripts\activate
 - Now clone the github repository by command :
  > git clone https://github.com/SrvstvRajat/404-Not-Found-Conception.git
 - Move inside project by command :cd 404-Not-Found-Conception
