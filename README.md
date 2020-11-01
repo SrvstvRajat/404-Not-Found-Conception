@@ -41,6 +41,8 @@ This is the Face Recognition System using various libraries and other tool imple
 Afer successfully installing the libraries open the folder and go to the training folder,add your image and save it with your name.Then come back to the folder and double click on Attendance project.py. 
 
 ## Links/Articles
+- Project link:
+> https://youtu.be/TPHftAPbqlw
 - For further informations visit:
 > https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
 
